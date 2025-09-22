@@ -6,16 +6,26 @@ use std::{fs, process};
 #[derive(Parser, Debug)]
 #[command(author, version, about)]
 struct Args {
-    #[arg(short, long)]
+    #[arg(short, long, help = "Code, uri to convert")]
     uri: String,
 
-    #[arg(short, long)]
+    #[arg(short, long, help = "Optional word, letters in the middle section")]
     letters: Option<String>,
 
-    #[arg(short, long, default_value_t = 20)]
+    #[arg(
+        short,
+        long,
+        default_value_t = 20,
+        help = "Size of the free square in the middle"
+    )]
     square: u32,
 
-    #[arg(short, long, default_value_t = 40)]
+    #[arg(
+        short,
+        long,
+        default_value_t = 40,
+        help = "Size of the font in the middle square"
+    )]
     font_size: u32,
 }
 
