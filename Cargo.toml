@@ -2,7 +2,10 @@
 name = "qr_codes"
 version = "0.1.0"
 edition = "2024"
+authors = ["Bent Brüggemann<mail@bent-brueggemann.de>"]
+description = "A little CLI tool to help create qr codes on-the-fly"
 
 [dependencies]
 qrcode = "0.14.1"
 image = "0.25.8"
+clap = { version = "4.5.48", features = ["derive"] }
