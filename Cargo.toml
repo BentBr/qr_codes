@@ -1,6 +1,6 @@
 [package]
 name = "qr_codes"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2024"
 authors = ["Bent Brüggemann<mail@bent-brueggemann.de>"]
 description = "A little CLI tool to help create qr codes on-the-fly"
