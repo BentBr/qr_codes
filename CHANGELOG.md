@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/BentBr/qr_codes/compare/v0.2.0...v0.2.1) (2025-09-25)
+
+
+### Bug Fixes
+
+* changing the download artifacts as well ([5721923](https://github.com/BentBr/qr_codes/commit/5721923c1114f1f7d2c338593339a8b28444ec37))
+
 ## [0.2.0](https://github.com/BentBr/qr_codes/compare/v0.1.0...v0.2.0) (2025-09-25)
 
 
