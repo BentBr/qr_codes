@@ -22,15 +22,4 @@ Too long texts in the middle (too big squares) render the code broken as only 20
 
 
 ## Build
-Running builds: \
-`cargo build --release --target aarch64-apple-darwin` \
-`cargo build --release --target x86_64-pc-windows-gnu` \
-`cargo build --release --target x86_64-apple-darwin`
-
-Fails: \
-`cargo build --release --target x86_64-unknown-linux-gnu` \
-
-
-#failing to compile from mac (cargo.toml addition)
-[target.x86_64-unknown-linux-gnu]
-linker = "x86_64-unknown-linux-gnu-gcc"
+See [Release tab](https://github.com/BentBr/qr_codes/releases) in GitHub
