@@ -15,11 +15,9 @@ This is the example's result: \
 ![volteuropa.org.svg](docs/volteuropa.org.svg)
 
 **Warning** \
-To long texts in the middle (too big squares) render the code broken as only 20-30% might be missing (error correction) to still have it working
+Too long texts in the middle (too big squares) render the code broken as only 20-30% might be missing (error correction) to still have it working
 
 ## Todo
-- Someone must build the binary on / for a regular x64 linux system
-- add ci for automatic building
 - add update routine
 
 
