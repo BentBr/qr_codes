@@ -27,7 +27,7 @@ jobs:
                 run: cargo build --release --target x86_64-unknown-linux-gnu
 
             -   name: Archive binary
-                uses: actions/upload-artifact@v2
+                uses: actions/upload-artifact@v4
                 with:
                     name: qr_codes-linux-${{ github.event.inputs.tag_name }}
                     path: "/home/runner/work/qr_codes/qr_codes"
@@ -51,7 +51,7 @@ jobs:
                 run: cargo build --release --target x86_64-apple-darwin
 
             -   name: Archive binary
-                uses: actions/upload-artifact@v2
+                uses: actions/upload-artifact@v4
                 with:
                     name: qr_codes-macos-amd64-${{ github.event.inputs.tag_name }}
                     path: "/Users/runner/work/qr_codes/qr_codes"
@@ -75,7 +75,7 @@ jobs:
                 run: cargo build --release --target aarch64-apple-darwin
 
             -   name: Archive binary
-                uses: actions/upload-artifact@v2
+                uses: actions/upload-artifact@v4
                 with:
                     name: qr_codes-macos-arm64-${{ github.event.inputs.tag_name }}
                     path: "/Users/runner/work/qr_codes/qr_codes"
@@ -100,7 +100,7 @@ jobs:
                 run: cargo build --release --target x86_64-pc-windows-msvc
 
             -   name: Archive binary
-                uses: actions/upload-artifact@v2
+                uses: actions/upload-artifact@v4
                 with:
                     name: qr_codes-windows-${{ github.event.inputs.tag_name }}.exe
                     path: "D:\\a\\qr_codes\\qr_codes"
